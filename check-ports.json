@@ -1,0 +1,9 @@
+{
+"checks": {
+    "port_check": {
+      "command": "check-ports.rb -p 22 -t 10",
+      "subscribers": [ "development" ],
+      "interval": 60
+    }
+  }
+}

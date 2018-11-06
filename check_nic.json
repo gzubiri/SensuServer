@@ -1,0 +1,9 @@
+{
+	"checks": {
+		"check_nic": {
+			"command": "$PWD/nic.sh",
+			"standalone": true,
+			"interval": 60
+		}
+	}
+}

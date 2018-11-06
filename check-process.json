@@ -1,0 +1,9 @@
+{
+"checks": {
+    "processes_check": {
+      "command": "check-process.rb -w 400 -c 500",
+      "subscribers": [ "development" ],
+      "interval": 60
+    }
+  }
+}
